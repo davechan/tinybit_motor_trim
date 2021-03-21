@@ -1,0 +1,22 @@
+{
+    "name": "tinybit_motor_trim",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit": "github:lzty634158/tiny-bit#13cdc8eee33fed7244ba2394a71b23130453810e"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
